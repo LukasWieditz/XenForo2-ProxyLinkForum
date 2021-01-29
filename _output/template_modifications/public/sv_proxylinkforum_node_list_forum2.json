@@ -5,5 +5,5 @@
     "enabled": true,
     "action": "str_replace",
     "find": "$node.Data.TypeHandler.getTypeIconClass()",
-    "replace": "($extras.ProxiedForum ? $extras.ProxiedForum.TypeHandler.getTypeIconClass() : $node.Data.TypeHandler.getTypeIconClass())"
+    "replace": "($extras.ProxiedNode ? $extras.ProxiedNode.TypeHandler.getTypeIconClass() : $node.Data.TypeHandler.getTypeIconClass())"
 }
